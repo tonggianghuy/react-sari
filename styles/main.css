@@ -1,0 +1,161 @@
+:root {
+    --white-color: white;
+    --pri-color: #E65B5C;
+    --secon-color: #EF743F;
+    --teri-color: #93668D;
+    --body-color: #434343;
+    --sub-color: #999999;
+    --radient-button: linear-gradient(167.96deg, #E65B5C 18.65%, #EF743F 98.25%, #EE7241 98.25%);
+    --box-shadow: inset 0px -1px 0px rgba(230, 91, 92, 0.25);
+}
+
+* {
+    box-sizing: content-box;
+}
+
+.main {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+
+container-fuild {
+    width: 100%;
+}
+
+.container {
+    padding-right: 165px;
+    padding-left: 165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.h0 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 133.33%;
+    word-spacing: 32px;
+}
+
+.h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    word-spacing: 32px;
+}
+
+.h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.h7 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    word-spacing: 12px;
+}
+
+.text-body_16 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 161.87%;
+    letter-spacing: -1%;
+    word-spacing: 16px;
+}
+
+.text-body_14 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    word-spacing: 14px;
+}
+
+.text-button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.text-caption_14 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    word-spacing: 14px;
+}
+
+.text-caption_12 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.2%;
+    word-spacing: 12px;
+}
+
+.text-special {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 6%;
+}
+
+
+/* header */
+
+.navbar {
+    background-color: var(--white-color);
+    box-shadow: var(--box-shadow);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-menu ul {
+    margin-right: 48px;
+}
+
+.nav-menu ul a {
+    margin-left: 48px;
+    color: var(--body-color);
+}
+
+.nav-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-button {
+    border-radius: 100px;
+    background: var(--radient-button);
+    color: var(--white-color);
+    padding: 13px 24px;
+}
+
+.nav-button span {
+    line-height: 22px;
+
+}

@@ -7,56 +7,116 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sari</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <!-- reset CSS -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <!-- Font-Custom -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,600,700&display=swap&subset=latin-ext,vietnamese"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="main">
-        <header>
-            <nav class="container">
-                <img src="./images/logo.png" alt="">
-                <ul>
-                    <a href="#">về chúng tôi</a>
-                    <a href="#">trường học</a>
-                    <a href="#">học bổng</a>
-                </ul>
-                <a href="#"><span>làm bài kiểm tra</span></a>
+        <header class="container-fluid navbar">
+            <nav class="container nav">
+                <div class="nav-logo"><img src="./images/logo.png" alt=""></div>
+                <div class="nav-menu text-special">
+                    <ul>
+                        <a href="#">về chúng tôi</a>
+                        <a href="#">trường học</a>
+                        <a href="#">học bổng</a>
+                    </ul>
+                    <a href="#" class="nav-button"><span>làm bài kiểm tra</span></a>
+                </div>
             </nav>
         </header>
         <section>
-            <p>Nền tảng đánh giá năng lực du học hàng đầu Việt Nam</p>
-            <p>SARI là nền tảng đánh giá năng lực thông qua các bài kiểm tra khảo sát các câu hỏi hàng đầu Việt Nam về
-                du học.</p>
-            <a href="#"><span>làm bài kiểm tra</span></a>
-            <img src="./images/img-01.png" alt="">
+            <div>
+                <div>
+                    <p>Nền tảng đánh giá năng lực du học hàng đầu Việt Nam</p>
+                    <p>SARI là nền tảng đánh giá năng lực thông qua các bài kiểm tra khảo sát các câu hỏi hàng đầu Việt
+                        Nam
+                        về
+                        du học.</p>
+                    <a href="#"><span>làm bài kiểm tra</span></a>
+                </div>
+                <div>
+                    <img src="./images/img-01.png" alt="">
+                </div>
+            </div>
         </section>
         <section>
-            <p>Học sinh-sinh viên nói gì về SARI</p>
-            <img src="./images/arrow-left.svg" alt="">
-            <img src="./images/arrow-right.svg" alt="">
-            <p>SARI giúp mình cải thiện học lực rất nhiều</p>
-            <p>Mình biết SARI cách đây 1 năm, lúc đấy đang không biết mình có đủ điều kiện để đi du học hay không? Thật
-                may mắn khi SARI đã cho mình biết mình đang ở đâu và cải thiện những điểm yếu của mình như thế nào. Và
-                sau 6 tháng kiểm tra lại, mình đã hoàn toàn tự tin để đi du học.</p>
-            <img src="./images/Ellipse-01.png" alt="">
-            <p>Đinh Phúc Khánh</p>
-            <p>Cựu du học sinh RMIT- Đang sinh sống và làm việc tại Úc</p>
-            <p>Giá như tôi biết đến SARI sớm hơn </p>
-            <p>Tôi là giáo viên tại Eggcademy, trong thâm tâm tôi ước gì có một nền tảng có thể đánh giá được năng lực
-                cho các em một cách tương đối chính xác để việc tư vấn có thể dễ dàng và hiệu quả hơn. Từ khi biết SARI,
-                mọi chuyện dễ dàng hơn bao giờ hết với tôi và học sinh của mình.</p>
-            <img src="./images/Ellipse-02.png" alt="">
-            <p>Tony Lê</p>
-            <p>Giáo viên tại Eggcademy- Đang sinh sống và làm việc Việt Nam</p>
+            <div>
+                <div>
+                    <div>
+                        <p>Học sinh-sinh viên nói gì về SARI</p>
+                    </div>
+                    <div>
+                        <img src="./images/arrow-left.svg" alt="">
+                        <img src="./images/arrow-right.svg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>SARI giúp mình cải thiện học lực rất nhiều</p>
+                        <p>Mình biết SARI cách đây 1 năm, lúc đấy đang không biết mình có đủ điều kiện để đi du học
+                            hay
+                            không?
+                            Thật
+                            may mắn khi SARI đã cho mình biết mình đang ở đâu và cải thiện những điểm yếu của mình
+                            như
+                            thế
+                            nào.
+                            Và
+                            sau 6 tháng kiểm tra lại, mình đã hoàn toàn tự tin để đi du học.</p>
+                        <div>
+                            <img src="./images/Ellipse-01.png" alt="">
+                            <p>Đinh Phúc Khánh</p>
+                            <p>Cựu du học sinh RMIT- Đang sinh sống và làm việc tại Úc</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Giá như tôi biết đến SARI sớm hơn </p>
+                        <p>Tôi là giáo viên tại Eggcademy, trong thâm tâm tôi ước gì có một nền tảng có thể đánh giá
+                            được
+                            năng
+                            lực
+                            cho các em một cách tương đối chính xác để việc tư vấn có thể dễ dàng và hiệu quả hơn.
+                            Từ
+                            khi
+                            biết
+                            SARI,
+                            mọi chuyện dễ dàng hơn bao giờ hết với tôi và học sinh của mình.</p>
+                        <div>
+                            <img src="./images/Ellipse-02.png" alt="">
+                            <p>Tony Lê</p>
+                            <p>Giáo viên tại Eggcademy- Đang sinh sống và làm việc Việt Nam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
-            <p>Bạn có thể làm được gì với SARI?</p>
-            <p>Hiểu được bản thân mình đang ở đâu</p>
-            <p>Có bao giờ bạn thắc mắc rằng mình có đủ điều kiện đi du học hay chưa ? Điều kiện tài chính như thế nào?
-                Vốn tiếng Anh của bạn đã đạt chuẩn hay chưa? SARI sẽ giúp bạn làm điều đó </p>
-            <img src="./images/01.png" alt="">
-            <img src="./images/Know your self@3x-8.png" alt="">
+            <div>
+                <div>
+                    <p>Bạn có thể làm được gì với SARI?</p>
+                </div>
+                <div>
+                    <div>
+                        <p>Hiểu được bản thân mình đang ở đâu</p>
+                        <p>Có bao giờ bạn thắc mắc rằng mình có đủ điều kiện đi du học hay chưa ? Điều kiện tài chính
+                            như
+                            thế
+                            nào?
+                            Vốn tiếng Anh của bạn đã đạt chuẩn hay chưa? SARI sẽ giúp bạn làm điều đó </p>
+                    </div>
+                    <img src="./images/01.png" alt="">
+                    <img src="./images/Know your self@3x-8.png" alt="">
+                </div>
+            </div>
         </section>
         <section>
+
             <img src="./images/Connect @3x-8.png" alt="">
             <p>Kết nối với các cựu học sinh du học trên toàn thế giới</p>
             <p>SARI có mạng lưới du học sinh ở nhiều quốc gia trên thế giới hãt, tham gia cộng đồng có chung ước mơ du
