@@ -105,22 +105,22 @@ container-fuild {
     align-items: center;
 }
 
-.nav-menu {
+.nav .nav-menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.nav-menu ul {
+.nav .nav-menu ul {
     margin-right: 48px;
 }
 
-.nav-menu ul a {
+.nav .nav-menu ul a {
     margin-left: 48px;
     color: var(--body-color);
 }
 
-.nav-menu a {
+.nav .nav-menu a {
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -130,9 +130,10 @@ container-fuild {
     background: var(--radient-button);
     color: var(--white-color);
     padding: 13px 24px;
+    line-height: 22px;
 }
 
-.nav-button span {
+.nav .nav-button span {
     line-height: 22px;
 
 }
@@ -149,14 +150,88 @@ container-fuild {
     padding-top: 111px;
 }
 
-.about-info {
+.about .about-info {
     width: 445px;
 }
 
-.about-info_title {
+.about .about-info_title {
+    margin-bottom: 16px;
+    line-height: 64px;
+}
+
+.about .about-info_body {
+    margin-bottom: 32px;
+    width: 380px;
+    line-height: 26px;
+}
+
+/* how */
+.bg-how {
+    height: 679px;
+}
+
+.how .how-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.how .how-header .how-header_title {
+    width: 540px;
+    line-height: 64px;
+}
+
+.how .how-header .how-header_arrow img {
+    margin-left: 33.5px;
+}
+
+.how .how-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how .how-body .how-content {
+    width: 445px;
+}
+
+.how .how-body .how-content .how-content_title {
+    line-height: 43px;
     margin-bottom: 16px;
 }
 
-.about-info_body {
-    margin-bottom: 32px;
+.how .how-body .how-content .how-content_text {
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.how .how-body .how-content_line {
+    border-left: 1px solid var(--sub-color);
+    height: 348px;
+    opacity: 0.3;
+}
+
+.how .how-body .how-content .how-card {
+    display: flex;
+    align-items: center;
+}
+
+.how .how-body .how-content .how-card .how-card_avata {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.how .how-body .how-content .how-card .how-card_body {
+    width: 255px;
+}
+
+.how .how-body .how-content .how-card .how-card_body .how-card_name {
+    line-height: 27px;
+    margin-bottom: 2px;
+}
+
+.how .how-body .how-content .how-card .how-card_body .how-card_job {
+    line-height: 18px;
+    color: var(--sub-color);
 }
