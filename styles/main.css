@@ -131,6 +131,7 @@
     color: var(--white-color);
     padding: 13px 24px;
     line-height: 22px;
+    text-transform: uppercase;
 }
 
 .nav .nav-button span {
@@ -237,14 +238,15 @@
 }
 
 .bg-maybe{
-    height: 2229px;
     background: url(../images/Vector.svg) no-repeat;
+    padding-top: 237px;
 }
 
 .maybe .maybe-title{
     display: flex;
     justify-content: center;
     text-align: center;
+    
 }
 
 .maybe .maybe-title p{
@@ -286,4 +288,44 @@
 
 .maybe .maybe-content .maybe-content_box .maybe-box_text .maybe-box_body{
     line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.why .why-header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.why .why-header p{
+    line-height: 64px;
+    width: 540px;
+}
+
+.why .why-body .why-body_card{
+    width: 318px;
+    height: 471px;
+    text-align: center;
+}
+
+.why .why-body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 69px;
+}
+
+.why .why-body .why-body_card .why-card_title{
+    line-height: 43px;
+    margin-top: 19px;
+    margin-bottom: 16px;
+}
+
+.why .why-body .why-body_card .why-card_body{
+    line-height: 26px;
+}
+
+.why .why-button{
+    display: flex;
+    justify-content: center;
 }
