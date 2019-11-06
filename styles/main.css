@@ -18,7 +18,7 @@
 }
 
 
-container-fuild {
+.container-fuild {
     width: 100%;
 }
 
@@ -141,7 +141,7 @@ container-fuild {
 /* about */
 
 .bg-about {
-    background: url(/images/Group\ 10.svg) top right no-repeat;
+    background: url(../images/Group-10.svg) top right no-repeat;
     background-size: contain;
 }
 
@@ -234,4 +234,56 @@ container-fuild {
 .how .how-body .how-content .how-card .how-card_body .how-card_job {
     line-height: 18px;
     color: var(--sub-color);
+}
+
+.bg-maybe{
+    height: 2229px;
+    background: url(../images/Vector.svg) no-repeat;
+}
+
+.maybe .maybe-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.maybe .maybe-title p{
+    line-height: 64px;
+    width: 540px;
+
+}
+
+.maybe .maybe-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 582px;
+}
+
+.maybe .maybe-content .maybe-content_box {
+    width: 550px;
+    height: 267px;
+    position: relative;
+}
+
+.maybe .maybe-content .maybe-content_box .maybe-box_text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 445px;
+}
+
+.maybe .maybe-content .maybe-content_box .maybe-box_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.maybe .maybe-content .maybe-content_box .maybe-box_text .maybe-box_title {
+    line-height: 43px;
+    margin-bottom: 16px;
+}
+
+.maybe .maybe-content .maybe-content_box .maybe-box_text .maybe-box_body{
+    line-height: 26px;
 }
