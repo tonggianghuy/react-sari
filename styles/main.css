@@ -379,3 +379,29 @@
 .slide .slide-body_title p {
     width: 496px;
 }
+
+.bg-partner {
+    margin-top: 120px;
+}
+
+.partner .partner-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 64px;
+}
+
+.partner .partner-header p {
+    width: 540px;
+}
+
+.partner .partner-body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+    margin-top: 85px;
+
+}
