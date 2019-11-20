@@ -237,25 +237,26 @@
     color: var(--sub-color);
 }
 
-.bg-maybe{
+.bg-maybe {
     background: url(../images/Vector.svg) no-repeat;
+    background-size: contain;
     padding-top: 237px;
 }
 
-.maybe .maybe-title{
+.maybe .maybe-title {
     display: flex;
     justify-content: center;
     text-align: center;
-    
+
 }
 
-.maybe .maybe-title p{
+.maybe .maybe-title p {
     line-height: 64px;
     width: 540px;
 
 }
 
-.maybe .maybe-content{
+.maybe .maybe-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -268,14 +269,14 @@
     position: relative;
 }
 
-.maybe .maybe-content .maybe-content_box .maybe-box_text{
+.maybe .maybe-content .maybe-content_box .maybe-box_text {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 445px;
 }
 
-.maybe .maybe-content .maybe-content_box .maybe-box_img{
+.maybe .maybe-content .maybe-content_box .maybe-box_img {
     position: absolute;
     top: 0;
     right: 0;
@@ -286,46 +287,95 @@
     margin-bottom: 16px;
 }
 
-.maybe .maybe-content .maybe-content_box .maybe-box_text .maybe-box_body{
+.maybe .maybe-content .maybe-content_box .maybe-box_text .maybe-box_body {
     line-height: 26px;
     margin-bottom: 32px;
 }
 
-.why .why-header{
+.why .why-header {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 120px;
 }
 
-.why .why-header p{
+.why .why-header p {
     line-height: 64px;
     width: 540px;
 }
 
-.why .why-body .why-body_card{
+.why .why-body .why-body_card {
     width: 318px;
     height: 471px;
     text-align: center;
 }
 
-.why .why-body{
+.why .why-body {
     display: flex;
     justify-content: space-around;
     margin-top: 69px;
 }
 
-.why .why-body .why-body_card .why-card_title{
+.why .why-body .why-body_card .why-card_title {
     line-height: 43px;
     margin-top: 19px;
     margin-bottom: 16px;
 }
 
-.why .why-body .why-body_card .why-card_body{
+.why .why-body .why-body_card .why-card_body {
     line-height: 26px;
 }
 
-.why .why-button{
+.why .why-button {
     display: flex;
     justify-content: center;
+}
+
+.slide {
+    margin-top: 120px;
+    height: 882px;
+}
+
+.slide .slide-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 64px;
+}
+
+.slide .slide-header p {
+    width: 730px;
+}
+
+.slide .slide-body {
+    position: relative;
+    height: 642px;
+}
+
+.slide .slide-body .slide-body_screen {
+    width: 920px;
+    height: 642px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.slide .slide-body .slide-body_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide .slide-body_title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 26px;
+}
+
+.slide .slide-body_title p {
+    width: 496px;
 }
