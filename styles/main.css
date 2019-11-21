@@ -405,3 +405,14 @@
     margin-top: 85px;
 
 }
+
+.bg-footer {
+    background-color: var(--teri-color);
+    margin-top: 100px;
+    padding-top: 88px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
