@@ -24,6 +24,9 @@
 
 .container-fuild {
   width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -433,9 +436,30 @@
 .footer .footer-info {
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 13px;
 }
 
-.footer .footer-info_text p {
+.footer .footer-info .footer-info_text {
+  width: 322px;
+}
+
+.footer .footer-info .footer-info_text p {
   color: var(--white-color);
   opacity: 0.8;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.footer .footer-info_icon {
+  margin-right: 12px;
+  margin-top: 3px;
+}
+
+.footer .footer-social {
+  margin-bottom: 25px;
+}
+
+.footer .footer-social_icon {
+  margin-right: 24px;
 }
